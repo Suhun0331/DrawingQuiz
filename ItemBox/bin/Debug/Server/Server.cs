@@ -28,7 +28,10 @@ namespace Server
         {
             InitializeComponent();
 
-            
+            //서버 시작
+            Thread thStart = new Thread(InitSocket);
+            thStart.IsBackground = true;
+            thStart.Start();
         }
 
 
