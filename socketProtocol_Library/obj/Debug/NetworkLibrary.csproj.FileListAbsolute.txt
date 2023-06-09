@@ -1,0 +1,8 @@
+C:\Users\ykeng\Desktop\UI_itembox_db\socketProtocol_Library\bin\Debug\socketProtocol_Library.dll
+C:\Users\ykeng\Desktop\UI_itembox_db\socketProtocol_Library\bin\Debug\socketProtocol_Library.pdb
+C:\Users\ykeng\Desktop\UI_itembox_db\socketProtocol_Library\bin\Debug\MySql.Data.xml
+C:\Users\ykeng\Desktop\UI_itembox_db\socketProtocol_Library\obj\Debug\NetworkLibrary.csproj.AssemblyReference.cache
+C:\Users\ykeng\Desktop\UI_itembox_db\socketProtocol_Library\obj\Debug\NetworkLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ykeng\Desktop\UI_itembox_db\socketProtocol_Library\obj\Debug\NetworkLibrary.csproj.CopyComplete
+C:\Users\ykeng\Desktop\UI_itembox_db\socketProtocol_Library\obj\Debug\socketProtocol_Library.dll
+C:\Users\ykeng\Desktop\UI_itembox_db\socketProtocol_Library\obj\Debug\socketProtocol_Library.pdb

@@ -1,0 +1,178 @@
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\bin\Debug\CatchMind.exe.config
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\bin\Debug\CatchMind.exe
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\bin\Debug\CatchMind.pdb
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\bin\Debug\socketProtocol_Library.dll
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\bin\Debug\MySql.Data.xml
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\bin\Debug\socketProtocol_Library.pdb
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\obj\Debug\ItemBox.csproj.AssemblyReference.cache
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\obj\Debug\CatchMind.Select.resources
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\obj\Debug\CatchMind.Host.resources
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\obj\Debug\CatchMind.Guest.resources
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\obj\Debug\CatchMind.Profile.resources
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\obj\Debug\CatchMind.Room.resources
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\obj\Debug\CatchMind.Result.resources
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\obj\Debug\CatchMind.Properties.Resources.resources
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\obj\Debug\ItemBox.csproj.GenerateResource.cache
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\obj\Debug\ItemBox.csproj.CoreCompileInputs.cache
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\obj\Debug\ItemBox.csproj.CopyComplete
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\obj\Debug\CatchMind.exe
+C:\Users\ykeng\Desktop\ItemBox\CatchMind_Test\CatchMind\obj\Debug\CatchMind.pdb
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\bin\Debug\CatchMind.exe.config
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\bin\Debug\CatchMind.exe
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\bin\Debug\CatchMind.pdb
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\bin\Debug\socketProtocol_Library.dll
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\bin\Debug\MySql.Data.xml
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\bin\Debug\socketProtocol_Library.pdb
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\ItemBox.csproj.AssemblyReference.cache
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\ItemBox.csproj.SuggestedBindingRedirects.cache
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\CatchMind.Select.resources
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\CatchMind.Host.resources
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\CatchMind.Guest.resources
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\CatchMind.Profile.resources
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\CatchMind.Room.resources
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\CatchMind.Result.resources
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\CatchMind.Properties.Resources.resources
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\ItemBox.csproj.GenerateResource.cache
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\ItemBox.csproj.CoreCompileInputs.cache
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\ItemBox.csproj.CopyComplete
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\CatchMind.exe
+C:\Users\김수훈\source\repos\itemBox_db\CatchMind\obj\Debug\CatchMind.pdb
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\bin\Debug\CatchMind.exe.config
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\bin\Debug\CatchMind.exe
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\bin\Debug\CatchMind.pdb
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\bin\Debug\socketProtocol_Library.dll
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\bin\Debug\MySql.Data.xml
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\bin\Debug\socketProtocol_Library.pdb
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\ItemBox.csproj.AssemblyReference.cache
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\ItemBox.csproj.SuggestedBindingRedirects.cache
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Select.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Host.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Guest.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Profile.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Room.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Result.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Properties.Resources.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\ItemBox.csproj.GenerateResource.cache
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\ItemBox.csproj.CoreCompileInputs.cache
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\ItemBox.csproj.CopyComplete
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\CatchMind.exe
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\UI_itembox_db\CatchMind\obj\Debug\CatchMind.pdb
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\bin\Debug\CatchMind.exe.config
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\bin\Debug\CatchMind.exe
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\bin\Debug\CatchMind.pdb
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\bin\Debug\socketProtocol_Library.dll
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\bin\Debug\MySql.Data.xml
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\bin\Debug\socketProtocol_Library.pdb
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\ItemBox.csproj.AssemblyReference.cache
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\ItemBox.csproj.SuggestedBindingRedirects.cache
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Select.resources
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Host.resources
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Guest.resources
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Profile.resources
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Room.resources
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Result.resources
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\CatchMind.Properties.Resources.resources
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\ItemBox.csproj.GenerateResource.cache
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\ItemBox.csproj.CoreCompileInputs.cache
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\ItemBox.csproj.CopyComplete
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\CatchMind.exe
+C:\Users\김수훈\source\repos\UI_itembox_db\CatchMind\obj\Debug\CatchMind.pdb
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\bin\Debug\ItemBox.exe.config
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\bin\Debug\ItemBox.exe
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\bin\Debug\ItemBox.pdb
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\bin\Debug\socketProtocol_Library.dll
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\bin\Debug\MySql.Data.xml
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\bin\Debug\socketProtocol_Library.pdb
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.AssemblyReference.cache
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.SuggestedBindingRedirects.cache
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Select.resources
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Host.resources
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Guest.resources
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Profile.resources
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Room.resources
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Result.resources
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Properties.Resources.resources
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.GenerateResource.cache
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.CoreCompileInputs.cache
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.CopyComplete
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.exe
+C:\Users\P\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.pdb
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.AssemblyReference.cache
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Select.resources
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Host.resources
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Guest.resources
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Profile.resources
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Room.resources
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Result.resources
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.GenerateResource.cache
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.exe
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.pdb
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.Properties.Resources.resources
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.CoreCompileInputs.cache
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\bin\Debug\ItemBox.exe.config
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\bin\Debug\ItemBox.exe
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\bin\Debug\ItemBox.pdb
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\bin\Debug\socketProtocol_Library.dll
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\bin\Debug\MySql.Data.xml
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\bin\Debug\socketProtocol_Library.pdb
+C:\Users\ykeng\Desktop\UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.CopyComplete
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\bin\Debug\ItemBox.exe.config
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\bin\Debug\ItemBox.exe
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\bin\Debug\ItemBox.pdb
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\bin\Debug\socketProtocol_Library.dll
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\bin\Debug\MySql.Data.xml
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\bin\Debug\socketProtocol_Library.pdb
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.AssemblyReference.cache
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.SuggestedBindingRedirects.cache
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Select.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Host.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Guest.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Profile.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Room.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Result.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Properties.Resources.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.GenerateResource.cache
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.CoreCompileInputs.cache
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.CopyComplete
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.exe
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.pdb
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\bin\Debug\ItemBox.exe.config
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\bin\Debug\ItemBox.exe
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\bin\Debug\ItemBox.pdb
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\bin\Debug\socketProtocol_Library.dll
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\bin\Debug\MySql.Data.xml
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\bin\Debug\socketProtocol_Library.pdb
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.AssemblyReference.cache
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.SuggestedBindingRedirects.cache
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Select.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Host.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Guest.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Profile.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Room.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Result.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.Properties.Resources.resources
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.GenerateResource.cache
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.CoreCompileInputs.cache
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.csproj.CopyComplete
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.exe
+C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\obj\Debug\ItemBox.pdb
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\bin\Debug\ItemBox.exe.config
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\bin\Debug\ItemBox.exe
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\bin\Debug\ItemBox.pdb
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\bin\Debug\socketProtocol_Library.dll
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\bin\Debug\MySql.Data.xml
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\bin\Debug\socketProtocol_Library.pdb
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.csproj.AssemblyReference.cache
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.csproj.SuggestedBindingRedirects.cache
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.Select.resources
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.Host.resources
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.Guest.resources
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.Profile.resources
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.Room.resources
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.Result.resources
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.Properties.Resources.resources
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.csproj.GenerateResource.cache
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.csproj.CoreCompileInputs.cache
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.csproj.CopyComplete
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.exe
+C:\Users\김수훈\source\repos\윤아_최최종\ItemBox\obj\Debug\ItemBox.pdb
