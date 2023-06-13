@@ -1,39 +1,23 @@
-create database itemBox_DB;
+create database itemBox_DB default character set utf8 collate utf8_general_ci;
 use itemBox_DB;
 
 create table host (
-	room_id int not null auto_increment primary key,
-    ip		varchar(15) not null,
+   room_id int not null auto_increment primary key,
+    ip      varchar(15) not null,
     room_num int not null,
     curr_num int not null
-);
+) default character set utf8 collate utf8_general_ci;
 
 create table game (
-	qid int not null auto_increment primary key,
-	question varchar(100) not null
-);
+   qid int not null auto_increment primary key,
+   question varchar(100) not null
+) default character set utf8 collate utf8_general_ci;
 
 alter table host auto_increment=1;
 alter table game auto_increment=1;
 
-insert into game(question) values('개');
-insert into game(question) values('고양이');
-insert into game(question) values('원숭이');
-insert into game(question) values('연가시');
-insert into game(question) values('부산행');
-insert into game(question) values('지져스');
-insert into game(question) values('오마이갓');
-insert into game(question) values('안녕');
-insert into game(question) values('인사');
-insert into game(question) values('책상');
-insert into game(question) values('얼굴');
-insert into game(question) values('사물놀이');
-insert into game(question) values('하하');	
-insert into game(question) values('호호');
-insert into game(question) values('에라이');
-insert into game(question) values('돌침대');
-insert into game(question) values('안마의자');
-insert into game(question) values('정답');
-insert into game(question) values('문제');
-insert into game(question) values('김삿갓');
-insert into game(question) values('아파트');
+INSERT INTO game(question) VALUES
+('가지'), ('사자'), ('고구마'), ('주사기'), ('파도'), ('카드'), ('기타'), ('다리미'), ('차표'), ('허수아비'),
+('주머니'), ('포도'), ('기차'), ('나비'), ('하마'), ('거미'), ('우비'), ('피아노'), ('타조'), ('바지'), ('바나나'),
+('너구리'), ('부채'), ('피노키오'), ('모자'), ('매미'), ('마차'), ('라디오'), ('우유'), ('고래'), ('오리'),
+('어머니'), ('누나'), ('마스크'), ('아기'), ('해바라기'), ('아버지'), ('오이'), ('고기'), ('자라');
