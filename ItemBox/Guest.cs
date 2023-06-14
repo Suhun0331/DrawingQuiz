@@ -87,13 +87,13 @@ namespace ItemBox
 
         private void cursor_MouseEnter(object sender, EventArgs e) { Cursor = Cursors.Hand; }
         private void cursor_MouseLeave(object sender, EventArgs e) { Cursor = Cursors.Arrow; }
-
+        
         public TcpClient SetSocket() { return clientSocket; }
 
         private void select_room(object sender, EventArgs e)
         {
             string roomName = "";
-            switch (sender.GetType().ToString())
+            switch (sender.GetType().ToString())  
             {
                 case "System.Windows.Forms.Panel": roomName = ((Panel)sender).Name; break;
                 case "System.Windows.Forms.Label": roomName = ((Label)sender).Name; break;
@@ -104,7 +104,7 @@ namespace ItemBox
             string max_player = "";
 
             // 클릭한 방의 현재 인원과 limit 인원을 가져온다.
-            if (roomName == "room1" || roomName == "roomList1" || roomName == "userCount1")
+            if (roomName == "room1" || roomName == "roomList1" || roomName == "userCount1")     
             { max_player = max_user1.Text; player_count = userCount1.Text; IP = room1.Text; }
             else if (roomName == "room2" || roomName == "roomList2" || roomName == "userCount2")
             { max_player = max_user2.Text; player_count = userCount2.Text; IP = roomList2.Text; }
@@ -120,7 +120,7 @@ namespace ItemBox
             }
             // 현재 인원과 limit 인원을 비교하여 방을 입장한다.
             if (curPeople >= fulPeople)
-            {
+            {        
 
                 MessageBox.Show("방에 입장할 수 없습니다.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
@@ -154,7 +154,7 @@ namespace ItemBox
 
 
                 this.Hide();
-                Profile profile = new Profile(this);
+                Profile profile= new Profile(this);
                 profile.ShowDialog();
                 this.Close();
             }
@@ -176,7 +176,7 @@ namespace ItemBox
             privateFonts.AddFontFile(Environment.CurrentDirectory + "\\Font\\한나체.ttf");
             Font font12 = new Font(privateFonts.Families[0], 12f);
             Font font18 = new Font(privateFonts.Families[0], 18f);
-
+       
             backLabel.Font = font18;
             roomList1.Font = font12;
             roomList2.Font = font12;

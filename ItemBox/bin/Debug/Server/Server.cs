@@ -353,8 +353,6 @@ namespace Server
                     resetBuffer(sendbuffer);
                 }
             }
-            else
-            { MessageBox.Show("Error" );}
         }
         public void SendScoreAll()
         {
@@ -647,3 +645,4 @@ namespace Server
         }
     }
 }
+

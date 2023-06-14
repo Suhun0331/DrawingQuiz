@@ -35,7 +35,7 @@ namespace ItemBox
         static String strConn = "Server=13.209.111.12;Port=59876;Database=itemBox_DB;Uid=root;Pwd=9999";
         MySqlConnection conn = new MySqlConnection(strConn);
         MySqlCommand cmd;
-
+        
         string IP = "";
 
         public Result()
@@ -122,8 +122,7 @@ namespace ItemBox
             this.Close();
         }
 
-        private void deleteRoom()
-        {
+        private void deleteRoom() {
             try
             {
                 conn.Open();
