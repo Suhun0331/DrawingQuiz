@@ -278,3 +278,18 @@ C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembo
 C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\bin\Debug\Server\obj\Debug\Server.exe
 C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\bin\Debug\Server\obj\Debug\Server.pdb
 C:\Users\82105\Desktop\대학3-1\응용소프트웨어실습\최최종_UI_itembox_db (2)\최최종_UI_itembox_db\ItemBox\bin\Debug\Server\bin\Debug\Server.pdb
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\bin\Debug\Server.exe.config
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\bin\Debug\Server.exe
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\bin\Debug\Server.pdb
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\bin\Debug\socketProtocol_Library.dll
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\bin\Debug\MySql.Data.xml
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\bin\Debug\socketProtocol_Library.pdb
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\obj\Debug\Server.Server.resources
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\obj\Debug\Server.exe
+C:\Users\김수훈\source\repos\test_2\ItemBox\bin\Debug\Server\obj\Debug\Server.pdb

@@ -32,7 +32,6 @@ namespace ItemBox
 
         private Profile profile = null;
 
-
         // 그림판
         bool isDrag = false;
         Point previousPoint;
@@ -51,7 +50,7 @@ namespace ItemBox
         ArrayList nickNameList = new ArrayList();
         int turnClientNum = 0;      // 현재 turn인 클라이언트의 번호
         int turnCount = 2;          // 남은 턴 수
-        bool lockDrawing = true;
+        bool lockDrawing = true;    
         int timeSec = PlayTime;
         string answer = "";
         bool gameStart = false;
@@ -85,19 +84,40 @@ namespace ItemBox
             g = Graphics.FromImage(bitmap);
 
             settingTurnChange(-1); //게임 턴 준비
-            timer.Interval = 1000;
+            timer.Interval = 1000;  
 
             DisplayText("< Connected to Server >", Color.Black);
             Thread t_handler = new Thread(GetRequest);  //클라이언트들 위한 스레드
             t_handler.IsBackground = true;
             t_handler.Start();
-
         }
 
 
-        private void startButton_Click(object sender, EventArgs e)
+        private void SetFont()
         {
-            //시작버튼 클릭-> 게임상태(게임 시작) 패킷 전달 ( 2인 이상일 때만)
+            System.Drawing.Text.PrivateFontCollection privateFonts = new System.Drawing.Text.PrivateFontCollection();
+            privateFonts.AddFontFile(Environment.CurrentDirectory + "\\Font\\한나체.ttf");
+            Font font12 = new Font(privateFonts.Families[0], 12f);
+            Font font18 = new Font(privateFonts.Families[0], 18f);
+            foreach (Control c in this.Controls)
+            {
+                if (c is Label)
+                {
+                    if (c.Tag.ToString() == "12")
+                        c.Font = font12;
+                    else if (c.Tag.ToString() == "18")
+                        c.Font = font18;
+                }
+                else if (c is RadioButton)
+                    c.Font = font12;
+            }
+            richTextBox1.Font = font12;
+            txtBox_user.Font = font12;
+            answerLabel.Font = font12;
+        }
+
+        private void startButton_Click(object sender, EventArgs e)                    
+        { //시작버튼 클릭-> 게임상태(게임 시작) 패킷 전달 ( 2인 이상일 때만)
             if (nickNameList.Count < 1)
             {
                 DisplayText("2명 이상일 때 플레이할 수 있습니다.", Color.Red);
@@ -108,28 +128,28 @@ namespace ItemBox
             state.Type = (int)PacketType.게임상태;
 
             state.gameStart = true;
-            Packet.Serialize(state).CopyTo(this.sendbuffer, 0);
-            stream.Write(this.sendbuffer, 0, this.sendbuffer.Length);
+            Packet.Serialize(state).CopyTo(this.sendbuffer, 0);                        
+            stream.Write(this.sendbuffer, 0, this.sendbuffer.Length);                  
             this.stream.Flush();
             resetBuffer(sendbuffer);
 
-            startButton.Hide();
+            startButton.Hide();                                         
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)     
         {// 게임 중 남은 시간 표시 및 제한 시간 초과시 정답 패킷(turn타입) 전달(->턴 변경)
             if (timeSec > 0)
             {
                 timeSec--;
-                int minute = timeSec / 60;
+                int minute = timeSec / 60;          
                 int second = timeSec % 60;
                 time.Text = string.Format("{0:0#} : {1:0#}", minute, second);
                 return;
             }
-            if (timeSec <= 0 && client_number == turnClientNum)
+            if (timeSec <= 0 && client_number == turnClientNum)    
             {
                 TurnChange turnPacket = new TurnChange();
-                turnPacket.Type = (int)PacketType.정답;
+                turnPacket.Type = (int)PacketType.정답;              
 
                 turnPacket.turn = turnClientNum;
                 turnPacket.clientNum = client_number;
@@ -139,20 +159,19 @@ namespace ItemBox
                 turnPacket.turnCount = turnCount;
                 Packet.Serialize(turnPacket).CopyTo(this.sendbuffer, 0);
 
-                stream.Write(this.sendbuffer, 0, this.sendbuffer.Length);
+                stream.Write(this.sendbuffer, 0, this.sendbuffer.Length);    
                 this.stream.Flush();
                 resetBuffer(sendbuffer);
             }
         }
 
-
+        
         ///////////////////////////////////////////////////////패킷 통신-게임 룰////////////////////////////////////////////////////////////////////////////
-
-        private void GetRequest()
+        private void GetRequest()       
         {//서버로부터 받은 패킷 관리 함수
             while (true)
             {
-                stream = clientSocket.GetStream();
+                stream = clientSocket.GetStream();  
                 int bytes = stream.Read(this.readbuffer, 0, this.readbuffer.Length);
 
                 Packet packet = (Packet)Packet.Deserialize(this.readbuffer);
@@ -163,7 +182,7 @@ namespace ItemBox
                         {
                             ClientMessage clientMessage = new ClientMessage();
                             clientMessage = (ClientMessage)Packet.Deserialize(this.readbuffer);
-                            DisplayText(clientMessage.Message, Color.Black);
+                            DisplayText(clientMessage.Message, Color.Black);  
                             break;
                         }
                     case (int)PacketType.그림정보: //전달내용: 클라이언트번호
@@ -223,7 +242,7 @@ namespace ItemBox
                             TurnChange turnPacket = new TurnChange();
                             turnPacket.turnCount = turnCount;
                             turnPacket = (TurnChange)Packet.Deserialize(this.readbuffer);
-
+      
                             if (turnCount != -1)
                                 turnReceived(turnPacket.turn, turnPacket.Word, turnPacket.message, turnPacket.clientscore);
                             break;
@@ -275,9 +294,9 @@ namespace ItemBox
             }
         }
 
-        private void turnReceived(int turnNum, string word, string message, int[] clientscore)
+        private void turnReceived(int turnNum, string word, string message, int[] clientscore)      
         {//다음 차례 클라이언트에게 턴을 넘김
-            this.Invoke(new MethodInvoker(delegate () { timer.Stop(); }));
+            this.Invoke(new MethodInvoker(delegate () { timer.Stop(); }));      
             turnClientNum = turnNum;        // 차례 변경
             answer = word;             // 정답 변경
 
@@ -310,12 +329,12 @@ namespace ItemBox
             }
         }
 
-        private void settingTurnChange(int turnNum)
+        private void settingTurnChange(int turnNum)        
         { // 다음 턴 준비(화면 초기화 및 제시어 세팅)
-            timeSec = PlayTime;
+            timeSec = PlayTime;                  
             int minute = timeSec / 60;
             int second = timeSec % 60;
-            this.Invoke(new MethodInvoker(delegate () { time.Text = string.Format("{0:0#} : {1:0#}", minute, second); }));
+            this.Invoke(new MethodInvoker(delegate () { time.Text = string.Format("{0:0#} : {1:0#}", minute, second); }));     
 
             if (turnCount == -1)  //게임 끝나면
                 this.Invoke(new MethodInvoker(delegate () { turn.Text = "0"; }));
@@ -340,7 +359,7 @@ namespace ItemBox
                 this.Invoke(new MethodInvoker(delegate () { answerLabel.Hide(); }));
             }
 
-            this.Invoke(new MethodInvoker(delegate () { drawing1.Hide(); }));
+            this.Invoke(new MethodInvoker(delegate () { drawing1.Hide(); }));   
             this.Invoke(new MethodInvoker(delegate () { drawing2.Hide(); }));
             this.Invoke(new MethodInvoker(delegate () { drawing3.Hide(); }));
             this.Invoke(new MethodInvoker(delegate () { drawing4.Hide(); }));
@@ -385,7 +404,7 @@ namespace ItemBox
             }
         }
 
-        private void setProfile(int clientNum)
+        private void setProfile(int clientNum)     
         {
             switch (clientNum)
             {
@@ -394,7 +413,7 @@ namespace ItemBox
                         Invoke(new MethodInvoker(delegate ()
                         {
                             userPB1.SizeMode = PictureBoxSizeMode.StretchImage;
-                            userPB1.Load(filepath + client_number.ToString() + "-" + clientNum.ToString() + ".jpg");
+                            userPB1.Load(filepath + client_number.ToString() + "-" + clientNum.ToString() + ".jpg"); 
                             userPB1.Image = System.Drawing.Image.FromFile(filepath + client_number.ToString() + "-" + clientNum.ToString() + ".jpg");
                         }));
                         break;
@@ -414,7 +433,7 @@ namespace ItemBox
                         Invoke(new MethodInvoker(delegate ()
                         {
                             userPB3.SizeMode = PictureBoxSizeMode.StretchImage;
-                            userPB3.Load(filepath + client_number.ToString() + "-" + clientNum.ToString() + ".jpg");
+                            userPB3.Load(filepath + client_number.ToString() + "-" + clientNum.ToString() + ".jpg"); 
                             userPB3.Image = System.Drawing.Image.FromFile(filepath + client_number.ToString() + "-" + clientNum.ToString() + ".jpg");
                         }));
                         break;
@@ -424,7 +443,7 @@ namespace ItemBox
                         Invoke(new MethodInvoker(delegate ()
                         {
                             userPB4.SizeMode = PictureBoxSizeMode.StretchImage;
-                            userPB4.Load(filepath + client_number.ToString() + "-" + clientNum.ToString() + ".jpg");
+                            userPB4.Load(filepath + client_number.ToString() + "-" + clientNum.ToString() + ".jpg"); 
                             userPB4.Image = System.Drawing.Image.FromFile(filepath + client_number.ToString() + "-" + clientNum.ToString() + ".jpg");
                         }));
                         break;
@@ -435,7 +454,7 @@ namespace ItemBox
                 this.Invoke(new MethodInvoker(delegate () { startButton.Hide(); }));
         }
 
-        private void DisplayText(string text, Color color)
+        private void DisplayText(string text, Color color)   
         { //채팅창에 메세지 띄움
             this.Invoke(new MethodInvoker(delegate ()
             {
@@ -448,7 +467,7 @@ namespace ItemBox
             }));
         }
 
-        private void txtBox_user_KeyDown(object sender, KeyEventArgs e)
+        private void txtBox_user_KeyDown(object sender, KeyEventArgs e)                                  
         {//채팅창에 입력한 채팅이 정답인지 확인
             if (e.KeyCode == Keys.Enter && txtBox_user.Text != "")
             {
@@ -471,7 +490,7 @@ namespace ItemBox
 
                     turnPacket.turn = turnClientNum;
                     turnPacket.Correct = true;
-                    turnPacket.message = "***   정답입니다.   ***";
+                    turnPacket.message = "***   정답입니다.   ***";                                      
                     turnPacket.score = timeSec;
                     turnPacket.clientNum = client_number;
                     turnPacket.turnCount = turnCount;
@@ -485,8 +504,6 @@ namespace ItemBox
                 this.txtBox_user.Text = "";
             }
         }
-
-
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         ///////////////////////////////////////////////////////   그림판   ////////////////////////////////////////////////////////
@@ -681,7 +698,7 @@ namespace ItemBox
         }
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        private void Next_Form()
+        private void Next_Form()          
         {
             this.Invoke(new MethodInvoker(delegate () {
                 this.Hide();
@@ -692,11 +709,6 @@ namespace ItemBox
         }
 
         private void turn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Room_Load_1(object sender, EventArgs e)
         {
 
         }
