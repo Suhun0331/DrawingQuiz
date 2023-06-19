@@ -50,7 +50,7 @@ namespace ItemBox
             this.Controls.Add(portNumberLabel);
         }
 
-         /*
+         
         // 로컬 IP 주소 얻는 메서드
         public string getIP()
         {
@@ -64,7 +64,7 @@ namespace ItemBox
             }
             return IP;
         }
-        */
+        /*
         public string getIP()
         {
             string wirelessIP = String.Empty;
@@ -85,7 +85,7 @@ namespace ItemBox
             }
             return wirelessIP;
         }
-
+*/
         // 서버의 IP 주소를 데이터베이스에 저장
         private void serverIPSave()
         {
