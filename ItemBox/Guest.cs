@@ -127,9 +127,9 @@ namespace ItemBox
             else
             {
                 try { Connect(); }
-                catch
+                catch (Exception ex)
                 {
-                    MessageBox.Show("서버와 연결할 수 없습니다.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    MessageBox.Show($"서버와 연결할 수 없습니다. 에러 내용: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                     return;
                 }
 
