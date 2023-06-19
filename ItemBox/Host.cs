@@ -13,6 +13,7 @@ using System.Diagnostics;
 using System.Threading;
 using MySql.Data.MySqlClient;
 using System.Net;
+using System.Net.NetworkInformation;
 
 namespace ItemBox
 {
@@ -49,18 +50,40 @@ namespace ItemBox
             this.Controls.Add(portNumberLabel);
         }
 
+         /*
         // 로컬 IP 주소 얻는 메서드
         public string getIP()
         {
             IPAddress[] localIP = Dns.GetHostAddresses(Dns.GetHostName());
             foreach (IPAddress address in localIP)
-            {
+            {   
                 if (address.AddressFamily == AddressFamily.InterNetwork)
                 {
                     IP = address.ToString();
                 }
             }
             return IP;
+        }
+        */
+        public string getIP()
+        {
+            string wirelessIP = String.Empty;
+            NetworkInterface[] adapters = NetworkInterface.GetAllNetworkInterfaces();
+            foreach (NetworkInterface adapter in adapters)
+            {
+                if (adapter.NetworkInterfaceType == NetworkInterfaceType.Wireless80211 && adapter.OperationalStatus == OperationalStatus.Up)
+                {
+                    IPInterfaceProperties adapterProperties = adapter.GetIPProperties();
+                    foreach (UnicastIPAddressInformation ip in adapterProperties.UnicastAddresses)
+                    {
+                        if (ip.Address.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork)
+                        {
+                            wirelessIP = ip.Address.ToString();
+                        }
+                    }
+                }
+            }
+            return wirelessIP;
         }
 
         // 서버의 IP 주소를 데이터베이스에 저장
